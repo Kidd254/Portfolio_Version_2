@@ -321,7 +321,7 @@ button:hover {
 }
 
 .profile {
-  background-image: url('images/profile-pic(1).png');
+  background-image: url('images/profile-pic.png');
   height: 45vh;
   width: 100vw;
   background-repeat: no-repeat;
@@ -804,8 +804,9 @@ button:hover {
   }
 
   .profiled {
-    background-image: url('images/profile-picd.jpeg');
-    height: 98vh;
+    padding-top: 24px;
+    background-image: url('images/profile-picd.png');
+    height: 110vh;
     width: 35vw;
     background-repeat: no-repeat;
     background-size: contain;
