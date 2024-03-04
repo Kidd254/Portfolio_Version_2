@@ -62,6 +62,7 @@ const projectArr = [
     desktopImage: 'images/rick.png',
     description:
       'Rick & Morty app is an app that is meant to display a list of characters, their residents and other details relevant to them. The app makes use of Rick & Morty API to retrieve relevant data for the app',
+    technologies: ['react', 'tailwind css', 'javascript'],
     live: 'https://rick-and-morty-7d94.onrender.com/',
     source: 'https://github.com/Kidd254/Rick-Morty',
   },
@@ -96,7 +97,29 @@ const projectArr = [
       'Recipe App is a robust and user-friendly recipe application. Seamlessly create, discover, and share recipes with it. It offers a delightful cooking experience with its intuitive interface and extensive features.',
     technologies: ['css', 'ruby', 'rails'],
     live: 'https://mysite-uoec.onrender.com/',
-    source: 'https://github.com/Uthmanbello/Recipe-app',
+    source: 'https://github.com/Kidd254/Recipe-app',
+  },
+  {
+    id: 9,
+    title: 'Annual SuperCruise Festival',
+    mobileImage: 'images/capital jazz.png',
+    desktopImage: 'images/capital jazz.png',
+    description:
+      'A web/mobile app for a tech institute which offers different couses annually',
+    technologies: ['html', 'css', 'javascript'],
+    live: 'https://github.com/Kidd254/Module1-Capstone-Project',
+    source: 'https://kidd254.github.io/Module1-Capstone-Project/',
+  },
+  {
+    id: 10,
+    title: 'MyShop App',
+    mobileImage: 'images/MyShop.png',
+    desktopImage: 'images/MyShop.png',
+    description:
+      'My Shop app is an app where users can compare prices of items, add items to cart before checkout.',
+    technologies: ['html', 'React', 'Tailwind CSS'],
+    live: 'https://myshop-react-app.onrender.com/',
+    source: 'https://github.com/Kidd254/MyShop_React_App',
   },
 ];
 
@@ -107,20 +130,20 @@ let html = '';
 
 projectArr.forEach((project) => {
   html += `
-      <div class="card">
-        <div class="project-card">
-          <img src="${project.desktopImage}" alt="Project Image" class="card-image">        
-          <h3 class="card-title">${project.title}</h3>
-          <p class="card-description">${project.description}</p>
-          <div class="tech">
-            <span>${project.technologies[0]}</span>
-            <span>${project.technologies[1]}</span>
-            <span>${project.technologies[2]}</span>
-          </div>
-          <button type="button" class="center card-button">See Project</button>
+    <div class="card">
+      <div class="project-card">
+        <img src="${project.desktopImage}" alt="Project Image" class="card-image">        
+        <h3 class="card-title">${project.title}</h3>
+        <p class="card-description">${project.description}</p>
+        <div class="tech">
+          <span>${project.technologies[0]}</span>
+          <span>${project.technologies[1]}</span>
+          <span>${project.technologies[2]}</span>
         </div>
+        <button type="button" class="center card-button">See Project</button>
       </div>
-    `;
+    </div>
+  `;
 });
 
 cards.innerHTML = html;
