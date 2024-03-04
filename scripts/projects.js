@@ -25,8 +25,8 @@ const projectArr = [
   {
     id: 2,
     title: 'Space Travellers Hub',
-    mobileImage: 'images/space travellers.png',
-    desktopImage: 'images/space travellers.png',
+    mobileImage: 'images/space travellers hub.png',
+    desktopImage: 'images/space travellers hub.png',
     description:
       'This Webapp is for a company that offers space travel services. Its built with React and Redux, using spaceX API to get the data.',
     technologies: ['html', 'css', 'react/redux'],
