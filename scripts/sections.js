@@ -1,3 +1,4 @@
+/* eslint-disable func-names */
 const toggleSections = document.querySelectorAll('.toggle-section');
 
 toggleSections.forEach((section) => {

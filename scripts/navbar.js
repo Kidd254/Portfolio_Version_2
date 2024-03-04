@@ -1,3 +1,4 @@
+/* eslint-disable func-names */
 const navIcon = document.querySelector('.nav-icon');
 const menuOverlay = document.getElementById('menu-overlay');
 const menuLinks = document.querySelectorAll('.menu-content a');
