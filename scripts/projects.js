@@ -57,25 +57,24 @@ const projectArr = [
   },
   {
     id: 5,
-    title: 'Tutoring App',
-    mobileImage: 'images/tutory-mob.png',
-    desktopImage: 'images/tutory-desk.png',
+    title: 'Rick & Morty App',
+    mobileImage: 'images/rick.png',
+    desktopImage: 'images/rick.png',
     description:
-      'Tutoring App is a Single Page Application that enables users to effortlessly manage classes, including adding, deleting, and viewing class details. It also provides reservation functionality, allowing users to make reservations and view their reservation details.',
-    technologies: ['ruby', 'rails', 'react'],
-    live: 'https://tutoring-front-end.onrender.com/',
-    source: 'https://github.com/Uthmanbello/tutoring-app-frontend',
+      'Rick & Morty app is an app that is meant to display a list of characters, their residents and other details relevant to them. The app makes use of Rick & Morty API to retrieve relevant data for the app',
+    live: 'https://rick-and-morty-7d94.onrender.com/',
+    source: 'https://github.com/Kidd254/Rick-Morty',
   },
   {
     id: 6,
-    title: "Space Travelers' Hub",
-    mobileImage: 'images/space travellers-mob.png',
-    desktopImage: 'images/space travellers-desk.png',
+    title: 'Metrics Web App',
+    mobileImage: 'images/metrics.png',
+    desktopImage: 'images/metrics.png',
     description:
-      "Space Travellers' Hub is a project which works with live data from the SpaceX API. The app allows users to book rockets and join selected space missions.",
+      'The Metrics web app displays all countries when the page renders. A user can filter countries by continent name. A user can view details of each country by clicking any individual country.',
     technologies: ['html', 'react/redux', 'javascript'],
-    live: 'https://space-travellers-hub-ns1r.onrender.com/',
-    source: 'https://github.com/Uthmanbello/react_group_project',
+    live: 'https://metrics-webapp-4iuc.onrender.com/',
+    source: 'https://github.com/Kidd254/Metrics-WebApp-React-Redux',
   },
   {
     id: 7,
@@ -86,7 +85,7 @@ const projectArr = [
       'Budget App is a project created using Ruby on Rails for users to create bills. It can also allow users to create items under these bills with their corresponding amounts. It can be used to track the spending of an individual.',
     technologies: ['css', 'ruby', 'rails'],
     live: 'https://budget-2kt4.onrender.com/',
-    source: 'https://github.com/Uthmanbello/budget_app',
+    source: 'https://github.com/Kidd254/Budget_App',
   },
   {
     id: 8,
@@ -98,50 +97,6 @@ const projectArr = [
     technologies: ['css', 'ruby', 'rails'],
     live: 'https://mysite-uoec.onrender.com/',
     source: 'https://github.com/Uthmanbello/Recipe-app',
-  },
-  {
-    id: 9,
-    title: 'My Review Partner',
-    mobileImage: 'images/review-mob1.PNG',
-    desktopImage: 'images/review-desk1.PNG',
-    description:
-      'My Review Partner is a responsive AI powered project which was built using React. It fetches reviews from popular social media and gives responses to the reviews automatically. The user can also edit the responses as they deem fit. The app also provides the user with the flexibility of navigating through reviews and the generated responses.',
-    technologies: ['css', 'javascript', 'react'],
-    live: 'https://manager-review-platform.vercel.app/',
-    source: 'https://github.com/Uthmanbello/review-platform-front',
-  },
-  {
-    id: 10,
-    title: 'DeRoyale Foods',
-    mobileImage: 'images/foods-mob.png',
-    desktopImage: 'images/foods-desk.png',
-    description:
-      'DeRoyale Foods is a project built with SASS and Bootstrap which displays different meals and their recipes. It also provides links for users to watch videos on how to prepare their favorite dishes.',
-    technologies: ['html', 'css', 'javascript'],
-    live: 'https://uthmanbello.github.io/deroyale-foods/',
-    source: 'https://github.com/Uthmanbello/deroyale-foods',
-  },
-  {
-    id: 11,
-    title: 'The 100 Series',
-    mobileImage: 'images/100-mob.png',
-    desktopImage: 'images/100-desk.png',
-    description:
-      "A Single-Page Application built with JavaScript which interacts with two APIs. It is an app wherein users can 'like' respective seasons of 'The 100' series, add comments and reservations too.",
-    technologies: ['html', 'css', 'javascript'],
-    live: 'https://uthmanbello.github.io/capstone2/dist',
-    source: 'https://github.com/Uthmanbello/capstone2',
-  },
-  {
-    id: 12,
-    title: 'DeRoyale Lodge',
-    mobileImage: 'images/lodge-mob.PNG',
-    desktopImage: 'images/lodge-desk.PNG',
-    description:
-      'An app that uses AI to interview a potential customer for a hotel. It is built using React.',
-    technologies: ['react', 'css', 'javascript'],
-    live: 'https://deroyale-lodge.onrender.com',
-    source: 'https://github.com/Uthmanbello/deroyale-companion',
   },
 ];
 
